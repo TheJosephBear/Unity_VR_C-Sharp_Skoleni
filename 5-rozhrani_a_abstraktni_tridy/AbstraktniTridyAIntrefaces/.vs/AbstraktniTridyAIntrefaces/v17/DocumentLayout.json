@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\unity_vr_c-sharp_skoleni\\5-rozhrani_a_abstraktni_tridy\\abstraktnitridyaintrefaces\\abstraktnitridyaintrefaces\\zvire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|solutionrelative:abstraktnitridyaintrefaces\\zvire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\unity_vr_c-sharp_skoleni\\5-rozhrani_a_abstraktni_tridy\\abstraktnitridyaintrefaces\\abstraktnitridyaintrefaces\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|solutionrelative:abstraktnitridyaintrefaces\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\unity_vr_c-sharp_skoleni\\5-rozhrani_a_abstraktni_tridy\\abstraktnitridyaintrefaces\\abstraktnitridyaintrefaces\\postava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|solutionrelative:abstraktnitridyaintrefaces\\postava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\unity_vr_c-sharp_skoleni\\5-rozhrani_a_abstraktni_tridy\\abstraktnitridyaintrefaces\\abstraktnitridyaintrefaces\\bojovnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|solutionrelative:abstraktnitridyaintrefaces\\bojovnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\unity_vr_c-sharp_skoleni\\5-rozhrani_a_abstraktni_tridy\\abstraktnitridyaintrefaces\\abstraktnitridyaintrefaces\\mag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|solutionrelative:abstraktnitridyaintrefaces\\mag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\unity_vr_c-sharp_skoleni\\5-rozhrani_a_abstraktni_tridy\\abstraktnitridyaintrefaces\\abstraktnitridyaintrefaces\\lucistnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FFF0DD-0161-4958-817D-5994CB1C3C97}|AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces.csproj|solutionrelative:abstraktnitridyaintrefaces\\lucistnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Zvire.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Zvire.cs",
-              "RelativeDocumentMoniker": "AbstraktniTridyAIntrefaces\\Zvire.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Zvire.cs",
-              "RelativeToolTip": "AbstraktniTridyAIntrefaces\\Zvire.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCUAAAAFAAAA",
+              "DocumentIndex": 3,
+              "Title": "Mag.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Mag.cs",
+              "RelativeDocumentMoniker": "AbstraktniTridyAIntrefaces\\Mag.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Mag.cs",
+              "RelativeToolTip": "AbstraktniTridyAIntrefaces\\Mag.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwC8AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T16:13:37.014Z",
+              "WhenOpened": "2025-10-20T16:55:05.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bojovnik.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Bojovnik.cs",
+              "RelativeDocumentMoniker": "AbstraktniTridyAIntrefaces\\Bojovnik.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Bojovnik.cs",
+              "RelativeToolTip": "AbstraktniTridyAIntrefaces\\Bojovnik.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwCAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:55:01.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lucistnik.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Lucistnik.cs",
+              "RelativeDocumentMoniker": "AbstraktniTridyAIntrefaces\\Lucistnik.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Lucistnik.cs",
+              "RelativeToolTip": "AbstraktniTridyAIntrefaces\\Lucistnik.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAywBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:54:53.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Postava.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Postava.cs",
+              "RelativeDocumentMoniker": "AbstraktniTridyAIntrefaces\\Postava.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\Postava.cs",
+              "RelativeToolTip": "AbstraktniTridyAIntrefaces\\Postava.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAIwEQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:54:48.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainClass.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\MainClass.cs",
               "RelativeDocumentMoniker": "AbstraktniTridyAIntrefaces\\MainClass.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Unity_VR_C-Sharp_Skoleni\\5-rozhrani_a_abstraktni_tridy\\AbstraktniTridyAIntrefaces\\AbstraktniTridyAIntrefaces\\MainClass.cs",
               "RelativeToolTip": "AbstraktniTridyAIntrefaces\\MainClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwEQAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T16:13:20.896Z",
               "EditorCaption": ""

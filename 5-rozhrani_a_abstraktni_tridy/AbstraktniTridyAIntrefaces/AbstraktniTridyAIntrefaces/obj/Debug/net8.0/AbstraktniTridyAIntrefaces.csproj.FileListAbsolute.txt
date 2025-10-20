@@ -1,0 +1,15 @@
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\bin\Debug\net8.0\AbstraktniTridyAIntrefaces.exe
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\bin\Debug\net8.0\AbstraktniTridyAIntrefaces.deps.json
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\bin\Debug\net8.0\AbstraktniTridyAIntrefaces.runtimeconfig.json
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\bin\Debug\net8.0\AbstraktniTridyAIntrefaces.dll
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\bin\Debug\net8.0\AbstraktniTridyAIntrefaces.pdb
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\AbstraktniTridyAIntrefaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\AbstraktniTridyAIntrefaces.AssemblyInfoInputs.cache
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\AbstraktniTridyAIntrefaces.AssemblyInfo.cs
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\AbstraktniTridyAIntrefaces.csproj.CoreCompileInputs.cache
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\AbstraktniTridyAIntrefaces.sourcelink.json
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\AbstraktniTridyAIntrefaces.dll
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\refint\AbstraktniTridyAIntrefaces.dll
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\AbstraktniTridyAIntrefaces.pdb
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\AbstraktniTridyAIntrefaces.genruntimeconfig.cache
+C:\Users\popa4\OneDrive\Dokumenty\GitHub\Unity_VR_C-Sharp_Skoleni\5-rozhrani_a_abstraktni_tridy\AbstraktniTridyAIntrefaces\AbstraktniTridyAIntrefaces\obj\Debug\net8.0\ref\AbstraktniTridyAIntrefaces.dll
