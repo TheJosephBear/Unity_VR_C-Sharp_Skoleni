@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\beranekp\\source\\repos\\PolymorfismusDedicnost\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2CCE82-5C2B-4E0C-95A1-2C004CDA8C21}|PolymorfismusDedicnost\\PolymorfismusDedicnost.csproj|c:\\users\\beranekp\\source\\repos\\polymorfismusdedicnost\\polymorfismusdedicnost\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2CCE82-5C2B-4E0C-95A1-2C004CDA8C21}|PolymorfismusDedicnost\\PolymorfismusDedicnost.csproj|solutionrelative:polymorfismusdedicnost\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2CCE82-5C2B-4E0C-95A1-2C004CDA8C21}|PolymorfismusDedicnost\\PolymorfismusDedicnost.csproj|c:\\users\\beranekp\\source\\repos\\polymorfismusdedicnost\\polymorfismusdedicnost\\postava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2CCE82-5C2B-4E0C-95A1-2C004CDA8C21}|PolymorfismusDedicnost\\PolymorfismusDedicnost.csproj|solutionrelative:polymorfismusdedicnost\\postava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainClass.cs",
+              "DocumentMoniker": "C:\\Users\\beranekp\\source\\repos\\PolymorfismusDedicnost\\PolymorfismusDedicnost\\MainClass.cs",
+              "RelativeDocumentMoniker": "PolymorfismusDedicnost\\MainClass.cs",
+              "ToolTip": "C:\\Users\\beranekp\\source\\repos\\PolymorfismusDedicnost\\PolymorfismusDedicnost\\MainClass.cs",
+              "RelativeToolTip": "PolymorfismusDedicnost\\MainClass.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:57:49.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Postava.cs",
+              "DocumentMoniker": "C:\\Users\\beranekp\\source\\repos\\PolymorfismusDedicnost\\PolymorfismusDedicnost\\Postava.cs",
+              "RelativeDocumentMoniker": "PolymorfismusDedicnost\\Postava.cs",
+              "ToolTip": "C:\\Users\\beranekp\\source\\repos\\PolymorfismusDedicnost\\PolymorfismusDedicnost\\Postava.cs",
+              "RelativeToolTip": "PolymorfismusDedicnost\\Postava.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAzwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T13:55:45.189Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\bin\Debug\net8.0\PolymorfismusDedicnost.exe
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\bin\Debug\net8.0\PolymorfismusDedicnost.deps.json
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\bin\Debug\net8.0\PolymorfismusDedicnost.runtimeconfig.json
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\bin\Debug\net8.0\PolymorfismusDedicnost.dll
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\bin\Debug\net8.0\PolymorfismusDedicnost.pdb
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\PolymorfismusDedicnost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\PolymorfismusDedicnost.AssemblyInfoInputs.cache
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\PolymorfismusDedicnost.AssemblyInfo.cs
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\PolymorfismusDedicnost.csproj.CoreCompileInputs.cache
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\PolymorfismusDedicnost.dll
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\refint\PolymorfismusDedicnost.dll
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\PolymorfismusDedicnost.pdb
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\PolymorfismusDedicnost.genruntimeconfig.cache
+C:\Users\beranekp\source\repos\PolymorfismusDedicnost\PolymorfismusDedicnost\obj\Debug\net8.0\ref\PolymorfismusDedicnost.dll
