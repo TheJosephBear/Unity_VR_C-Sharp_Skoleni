@@ -22,6 +22,7 @@ Nemůže být sama o sobě vytvořena (instanciována) – pouze děděna.
 - Nemá tělo (implementaci).
 - Každý potomek musí implementovat tuto metodu.
 - Používá se pro zajištění, že všechny potomky budou mít stejné rozhraní metod.
+- **Pokud potřebuji, aby potomci dodrželi implementaci funkcí, ale zároveň měli nějaké společné chování**
 
 ### Syntax
 
