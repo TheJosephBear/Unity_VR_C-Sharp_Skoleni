@@ -5,8 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AbstraktniTridyAIntrefaces {
+
     internal class MainClass {
         public static void Main(string[] args) {
+
+         
+
 
             // =======================
             //   *******************

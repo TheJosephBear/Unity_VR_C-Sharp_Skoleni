@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AbstraktniTridyAIntrefaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8520366266abc65e17be04401c0554d0e3724fb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1fa9973d494512d67ea92e795057b329238138e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AbstraktniTridyAIntrefaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AbstraktniTridyAIntrefaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
