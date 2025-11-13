@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,10 +10,11 @@ public class Character : MonoBehaviour, IDamageable {
     public int MaxHealth = 100;
 
     [Header("Movement Values")]
-    [SerializeField] protected float _moveSpeed = 5f;
+    [SerializeField] public float MoveSpeed = 5f;
     [SerializeField] protected float _rotationSpeed = 10f;
     [SerializeField] protected float _gravity = 9.81f;
 
+    public event Action OnCharacterDeath;
 
     protected float _currentHealth;
     protected IAttack _attackHandler;
@@ -35,16 +37,18 @@ public class Character : MonoBehaviour, IDamageable {
     }
 
     protected virtual void Move() {
-        Vector3 moveDir = new Vector3(_moveInput.x, 0f, _moveInput.y);
+        float horizontal = _moveInput.x;
+        float vertical = _moveInput.y;
 
-        // Rotate character toward movement direction
-        if (moveDir.sqrMagnitude > 0.01f) {
-            Quaternion targetRot = Quaternion.LookRotation(moveDir);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, _rotationSpeed * Time.deltaTime);
 
-            // Move character
-            _cc.Move(moveDir.normalized * _moveSpeed * Time.deltaTime);
+        if (Mathf.Abs(horizontal) > 0.01f) {
+            float rotationAmount = horizontal * _rotationSpeed * Time.deltaTime;
+            transform.Rotate(0f, rotationAmount, 0f);
         }
+
+        Vector3 moveDir = transform.forward * vertical;
+        _cc.Move(moveDir * MoveSpeed * Time.deltaTime);
+
 
         // Apply gravity
         _velocity.y += _gravity * Time.deltaTime;
@@ -65,6 +69,7 @@ public class Character : MonoBehaviour, IDamageable {
     }
 
     protected virtual void Die() {
+        OnCharacterDeath?.Invoke();
         Destroy(gameObject);
     }
 
