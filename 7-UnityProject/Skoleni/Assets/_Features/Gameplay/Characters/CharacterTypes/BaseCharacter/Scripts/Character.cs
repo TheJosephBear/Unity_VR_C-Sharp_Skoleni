@@ -13,6 +13,7 @@ public class Character : MonoBehaviour, IDamageable {
     [SerializeField] protected float _rotationSpeed = 10f;
     [SerializeField] protected float _gravity = 9.81f;
 
+    public event System.Action OnDeath;
 
     protected float _currentHealth;
     protected IAttack _attackHandler;
@@ -35,16 +36,16 @@ public class Character : MonoBehaviour, IDamageable {
     }
 
     protected virtual void Move() {
-        Vector3 moveDir = new Vector3(_moveInput.x, 0f, _moveInput.y);
+        float horizontal = _moveInput.x;
+        float vertical = _moveInput.y;
 
-        // Rotate character toward movement direction
-        if (moveDir.sqrMagnitude > 0.01f) {
-            Quaternion targetRot = Quaternion.LookRotation(moveDir);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, _rotationSpeed * Time.deltaTime);
-
-            // Move character
-            _cc.Move(moveDir.normalized * _moveSpeed * Time.deltaTime);
+        if (Mathf.Abs(horizontal) > 0.01f) {
+            float rotationAmount = horizontal * _rotationSpeed * Time.deltaTime;
+            transform.Rotate(0f, rotationAmount, 0f);
         }
+
+        Vector3 moveDir = transform.forward * vertical;
+        _cc.Move(moveDir * _moveSpeed * Time.deltaTime);
 
         // Apply gravity
         _velocity.y += _gravity * Time.deltaTime;
@@ -65,11 +66,20 @@ public class Character : MonoBehaviour, IDamageable {
     }
 
     protected virtual void Die() {
+        OnDeath?.Invoke();
         Destroy(gameObject);
     }
 
     public virtual void PerformAttack() {
         _attackHandler?.ExecuteAttack();
+    }
+
+    public float GetMovementSpeed() {
+        return _moveSpeed;
+    }
+
+    public void SetMovementSpeed(float speed) {
+        _moveSpeed = speed;
     }
 
 }

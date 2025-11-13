@@ -25,7 +25,7 @@ public class MeleeAttack : MonoBehaviour, IAttack {
             IDamageable damageable = hit.GetComponent<IDamageable>();
             if (damageable != null) {
                 // dont hit yourself
-                if(hit.gameObject.GetInstanceID() == this.gameObject.GetInstanceID()) {
+                if (hit.gameObject.GetInstanceID() == this.gameObject.GetInstanceID()) {
                     continue;
                 }
 

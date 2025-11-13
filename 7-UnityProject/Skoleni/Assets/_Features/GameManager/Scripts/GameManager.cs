@@ -9,7 +9,10 @@ public class GameManager : Singleton<GameManager> {
     InputManager _inputManagerPrefab;
     [HideInInspector, NonSerialized]
     public InputManager Input = null;
+
     public List<GameStateBase> gameStateClassList = new List<GameStateBase>();
+
+
     public event Action<GameState> OnGameStateChanged;
     public event Action<InputManager> OnInputReady;
     public event Action<IDamageable, int> OnAnyHit;
@@ -24,14 +27,16 @@ public class GameManager : Singleton<GameManager> {
 
 
     public void ChangeGameState(GameState newState) {
-        // exit if trying to change to already selected state
-        if (newState == _currentGameStateClass.gameState)
-            return;
+        if(_currentGameStateClass != null) {
+            // exit if trying to change to already selected state
+            if (newState == _currentGameStateClass.gameState)
+                return;
 
-        // Exit previous state
-        if (_currentGameStateClass != null) {
+            // Exit previous state
             _currentGameStateClass.Exit();
         }
+        
+        
 
         _currentGameStateClass = gameStateClassList.Find(baseClass => baseClass.gameState == newState);
         /*
@@ -45,7 +50,7 @@ public class GameManager : Singleton<GameManager> {
         _currentGameState = newState;
 
         _currentGameStateClass.Enter();
-        OnGameStateChanged.Invoke(newState); // Fire event
+        OnGameStateChanged?.Invoke(newState); // Fire event
     }
 
     public void RaiseOnHitEvent(IDamageable hit, int damage) {
@@ -57,5 +62,6 @@ public class GameManager : Singleton<GameManager> {
 public enum GameState {
     MainMenu,
     Running,
-    PauseMenu
+    PauseMenu,
+    GameOver,
 }

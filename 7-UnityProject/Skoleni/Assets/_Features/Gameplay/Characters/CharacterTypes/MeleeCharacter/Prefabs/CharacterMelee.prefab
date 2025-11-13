@@ -450,7 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 150
   _moveSpeed: 10
-  _rotationSpeed: 10
+  _rotationSpeed: 200
   _gravity: -9.81
 --- !u!114 &4691357378506615201
 MonoBehaviour:
