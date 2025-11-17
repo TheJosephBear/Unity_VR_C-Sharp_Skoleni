@@ -10,9 +10,10 @@ public class RangedAttack : MonoBehaviour, IAttack {
 
     public GameObject BulletPrefab;
     public Vector3 BulletSpawnOffset;
+    public AudioClip CastSound;
 
     public void ExecuteAttack() {
-        RangedAttackBullet bulletScript = Instantiate(BulletPrefab, transform.position + BulletSpawnOffset, transform.rotation).GetComponent<RangedAttackBullet>();
+        RangedAttackBullet bulletScript = Instantiate(BulletPrefab, transform.position + transform.rotation * BulletSpawnOffset, transform.rotation).GetComponent<RangedAttackBullet>();
         bulletScript.Initialize(BulletSpeed, BulletDamage);
     }
 

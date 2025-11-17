@@ -6,6 +6,7 @@ using UnityEngine;
 public class AICharacterControl : MonoBehaviour {
 
     public float StoppingDistanceFromTarget = 1.0f;
+    public float AttackingDistanceFromTarget = 1.0f;
 
     Character _characterComponent;
     Vector3 _targetPosition;
@@ -13,6 +14,8 @@ public class AICharacterControl : MonoBehaviour {
 
     void Start() {
         _characterComponent = GetComponent<Character>();
+
+        InvokeRepeating("TryAttack", 0f, 1f);
     }
 
     void Update() {
@@ -25,13 +28,22 @@ public class AICharacterControl : MonoBehaviour {
         HandleMove();
     }
 
-    void HandleMove() {
-        Vector2 directionToTarget = new Vector2(
-            _targetPosition.x - transform.position.x,
-            _targetPosition.z - transform.position.z
-        );
+    void TryAttack() {
+        if (Vector3.Distance(_targetPosition, transform.position) <= AttackingDistanceFromTarget){
+            _characterComponent.PerformAttack();
+        }
+    }
 
-        _characterComponent.SetMoveInput(directionToTarget.normalized);
+    void HandleMove() {
+        Vector3 worldDirection = _targetPosition - transform.position;
+
+        // Convert to local space (relative to character's forward) 
+        Vector3 localDirection = transform.InverseTransformDirection(worldDirection);
+
+        // Vector3 -> 2
+        Vector2 moveInput = new Vector2(localDirection.x, localDirection.z);
+
+        _characterComponent.SetMoveInput(moveInput.normalized);
     }
 
     void SetTargetPosition(Vector3 targetPosition) {
@@ -39,6 +51,4 @@ public class AICharacterControl : MonoBehaviour {
 
         _targetPosition = targetPosition - directionToTarget * StoppingDistanceFromTarget;
     }
-
-
 }
