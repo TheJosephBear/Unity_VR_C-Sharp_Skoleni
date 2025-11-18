@@ -21,10 +21,17 @@ public class GameManager : Singleton<GameManager> {
     GameStateBase _currentGameStateClass;
 
     void Start() {
-        Input = Instantiate(_inputManagerPrefab);
-        OnInputReady?.Invoke(Input);
+        Initialize();
     }
 
+    void Initialize() {
+        // Input init
+        Input = Instantiate(_inputManagerPrefab);
+        OnInputReady?.Invoke(Input);
+
+        // Initial state
+        ChangeGameState(GameState.MainMenu);
+    }
 
     public void ChangeGameState(GameState newState) {
         if(_currentGameStateClass != null) {
@@ -36,19 +43,8 @@ public class GameManager : Singleton<GameManager> {
             _currentGameStateClass.Exit();
         }
         
-        
-
         _currentGameStateClass = gameStateClassList.Find(baseClass => baseClass.gameState == newState);
-        /*
-         foreach(GameStateBase baseClass in gameStateClassList){
-            if (baseClass.gameState == newState)
-                _currentGameStateClass = baseClass
-                break;
-         }
-         */
-
         _currentGameState = newState;
-
         _currentGameStateClass.Enter();
         OnGameStateChanged?.Invoke(newState); // Fire event
     }

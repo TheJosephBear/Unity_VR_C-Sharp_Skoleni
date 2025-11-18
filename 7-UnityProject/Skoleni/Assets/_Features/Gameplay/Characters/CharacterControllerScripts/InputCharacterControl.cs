@@ -22,6 +22,8 @@ public class InputCharacterControl : MonoBehaviour {
     }
 
     void OnEnable() {
+        GameManager.Instance.Input.OnMoveInput += HandleMoveInput;
+        GameManager.Instance.Input.OnAttackInput += HandleAttackInput;
         GameManager.Instance.OnInputReady += SubscribeToInput;
     }
 
