@@ -60,5 +60,6 @@ public enum GameState {
     MainMenu,
     Running,
     PauseMenu,
-    GameOver
+    GameOver,
+    Victory
 }

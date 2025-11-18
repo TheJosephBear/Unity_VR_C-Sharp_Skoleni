@@ -22,7 +22,7 @@ public class BossScript : Character {
     }
 
     protected override void Die() {
-        GameManager.Instance.ChangeGameState(GameState.GameOver);
+        GameManager.Instance.ChangeGameState(GameState.Victory);
         base.Die();
     }
 }
