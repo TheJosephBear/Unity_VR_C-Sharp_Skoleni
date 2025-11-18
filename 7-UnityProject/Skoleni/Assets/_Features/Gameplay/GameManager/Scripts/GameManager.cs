@@ -20,6 +20,8 @@ public class GameManager : Singleton<GameManager> {
     void Start() {
         Input = Instantiate(_inputManagerPrefab);
         OnInputReady?.Invoke(Input);
+
+        ChangeGameState(GameState.MainMenu);
     }
 
 
