@@ -27,6 +27,7 @@ public class GameManager : Singleton<GameManager> {
 
     public void ChangeGameState(GameState newState) {
         if (_currentGameStateClass != null) {
+            print("Changing game state to " + newState + " previous state was" + _currentGameStateClass.gameState);
             // exit if trying to change to already selected state
             if (newState == _currentGameStateClass.gameState)
                 return;

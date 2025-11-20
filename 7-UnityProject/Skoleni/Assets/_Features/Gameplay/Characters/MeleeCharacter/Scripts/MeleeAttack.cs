@@ -16,7 +16,7 @@ public class MeleeAttack : MonoBehaviour, IAttack {
     public Color GizmoColor = Color.red;
 
     public void ExecuteAttack() {
-        Instantiate(EffectPrefab, transform).transform.position += transform.forward * 0.5f;
+        Instantiate(EffectPrefab, transform.position + transform.rotation * transform.forward * 0.2f, transform.rotation).transform.position += transform.forward * 0.5f;
 
         Vector3 boxCenter = transform.position + transform.TransformDirection(Offset);
 

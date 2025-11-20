@@ -13,6 +13,7 @@ public class Character : MonoBehaviour, IDamageable {
     [SerializeField] public float MoveSpeed = 5f;
     [SerializeField] protected float _rotationSpeed = 10f;
     [SerializeField] protected float _gravity = 9.81f;
+    [SerializeField] protected float _groundCheckRayLength = 0.1f;
 
     public event Action OnCharacterDeath;
 
@@ -77,6 +78,34 @@ public class Character : MonoBehaviour, IDamageable {
         _attackHandler?.ExecuteAttack();
     }
 
+    public void DisableGravityForDuration(float duration, float strength) {
+        StartCoroutine(DisableGravityForDurationCoroutine(duration, strength));
+    }
+
+    IEnumerator DisableGravityForDurationCoroutine(float duration, float strength) {
+        float initialGravity = _gravity;
+        _gravity = Mathf.Abs(_gravity) * strength;
+        yield return new WaitForSeconds(duration);
+        _gravity = initialGravity;
+    }
+
+    public bool IsGrounded() {
+        return _cc.isGrounded ||
+               Physics.Raycast(transform.position + Vector3.up * 0.1f, Vector3.down, _groundCheckRayLength);
+    }
+
+    private void OnDrawGizmosSelected() {
+        if (_cc == null)
+            _cc = GetComponent<CharacterController>();
+
+        Gizmos.color = IsGrounded() ? Color.green : Color.red;
+
+        Vector3 origin = transform.position + Vector3.up * 0.1f;
+        Vector3 direction = Vector3.down * _groundCheckRayLength;
+
+        Gizmos.DrawLine(origin, origin + direction);
+        Gizmos.DrawSphere(origin + direction, 0.03f);
+    }
 }
 
 /*

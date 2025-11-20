@@ -395,7 +395,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4968868256346201863}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.028583359, z: -0, w: -0.9995914}
   m_LocalPosition: {x: 0, y: 1.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -403,7 +403,7 @@ Transform:
   - {fileID: 970282785407114588}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 363.276, z: 0}
 --- !u!136 &4880351275829776439
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -449,9 +449,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 150
-  _moveSpeed: 10
-  _rotationSpeed: 10
+  MoveSpeed: 20
+  _rotationSpeed: 300
   _gravity: -9.81
+  _groundCheckRayLength: 0.1
 --- !u!114 &4691357378506615201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,9 +466,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EffectPrefab: {fileID: 1837560713107999261, guid: 7afdd670861b2bc4eb9d3cf49066a543, type: 3}
-  Damage: 10
-  BoxSize: {x: 1.57, y: 1.58, z: 1.22}
-  Offset: {x: 0, y: 0, z: 0.74}
+  Damage: 30
+  BoxSize: {x: 1.87, y: 1.58, z: 1.92}
+  Offset: {x: 0, y: 0, z: 0.9}
   DrawGizmo: 1
   GizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &5082467535209718669

@@ -805,7 +805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31167df6e38dd4c44b752ed3cff3eb83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerCharacterRefference: {fileID: 2239050021031165703, guid: 2be4e4e3fc1f38149819e96598df44a6, type: 3}
+  PlayerCharacterRefference: {fileID: 6890904271922235207, guid: 913847e53340dd24da12a5fc2b3ae039, type: 3}
   EnemySpawnerReff: {fileID: 2059319305}
   PlayerSpawnPoint: {x: -4, y: 2, z: 7}
 --- !u!4 &378040667

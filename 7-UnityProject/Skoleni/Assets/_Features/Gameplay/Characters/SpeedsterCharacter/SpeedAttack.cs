@@ -7,9 +7,13 @@ public class SpeedAttack : MonoBehaviour, IAttack {
     public float AttackDuration = 3f;
     public float SpeedMultipier = 2.5f;
     public int AttackDamage = 80;
+    public float CooldownTime = 0.2f;
+
+    public GameObject HitEffectPrefab;
 
     Character _characterScript;
     float _originalSpeed;
+    float _nextAttackTime = 0f;
     bool _attackActive = false;
 
     private void Awake() {
@@ -37,12 +41,14 @@ public class SpeedAttack : MonoBehaviour, IAttack {
     }
 
     private void OnControllerColliderHit(ControllerColliderHit collider) {
-        if (!_attackActive) return;
+        if (!_attackActive  || Time.time <= _nextAttackTime) return;
 
         IDamageable damageableScript = collider.gameObject.GetComponent<IDamageable>();
         if (damageableScript == null) return;
 
+        Instantiate(HitEffectPrefab, transform.position, Quaternion.identity);
         damageableScript.TakeDamage(AttackDamage);
+        _nextAttackTime = Time.time + CooldownTime;
     }
 
 }

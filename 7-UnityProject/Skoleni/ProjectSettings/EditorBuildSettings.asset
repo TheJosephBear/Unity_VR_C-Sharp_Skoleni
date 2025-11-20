@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Features/Gameplay/Scenes/MainScene.unity
     guid: 0a6d607efa1789b42b2a71f993a193e1
+  - enabled: 1
+    path: Assets/Skakacka/SkakackaScene.unity
+    guid: 08458244c8b2e424ca2129134b65c14c
   m_configObjects: {}

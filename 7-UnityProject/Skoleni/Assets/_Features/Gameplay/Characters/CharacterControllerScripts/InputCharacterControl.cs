@@ -9,6 +9,7 @@ public class InputCharacterControl : MonoBehaviour {
 
     Character characterComponent;
 
+
     void Start() {
         characterComponent = GetComponent<Character>();
     }
@@ -22,6 +23,11 @@ public class InputCharacterControl : MonoBehaviour {
     }
 
     void OnEnable() {
+        if(GameManager.Instance == null) {
+            InputManager.Instance.OnMoveInput += HandleMoveInput;
+            InputManager.Instance.OnAttackInput += HandleAttackInput;
+            return;
+        }
         GameManager.Instance.Input.OnMoveInput += HandleMoveInput;
         GameManager.Instance.Input.OnAttackInput += HandleAttackInput;
         GameManager.Instance.OnInputReady += SubscribeToInput;

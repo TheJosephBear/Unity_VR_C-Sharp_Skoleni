@@ -112,10 +112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9de1200f6b98bfb4aab0f5d0de438d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 100
+  MaxHealth: 200
   MoveSpeed: 20
   _rotationSpeed: 300
   _gravity: -9.81
+  _groundCheckRayLength: 0.1
 --- !u!114 &9113769204986672576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +131,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackDuration: 3
   SpeedMultipier: 2.5
-  AttackDamage: 0
+  AttackDamage: 90
+  HitEffectPrefab: {fileID: 4686069302698979426, guid: f8068db3964f4ce40b1cd2d69fd21db4, type: 3}
 --- !u!1001 &7704580569796029600
 PrefabInstance:
   m_ObjectHideFlags: 0
