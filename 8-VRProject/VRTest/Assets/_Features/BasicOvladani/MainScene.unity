@@ -202,9 +202,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1033059761}
+  m_Mesh: {fileID: 1668553911}
 --- !u!33 &131389251
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -806,7 +806,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 936758807}
 --- !u!33 &248727064
@@ -1189,9 +1189,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 936758807}
+  m_Mesh: {fileID: 2006245271}
 --- !u!33 &328140646
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -2624,9 +2624,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1361731541}
+  m_Mesh: {fileID: 383323061}
 --- !u!33 &745766302
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -4190,7 +4190,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4308,7 +4308,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.39
+      scalar: 0.01
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4772,7 +4772,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.27
+      value: 0.03
       mode: 0
       spread: 0
       speed:
@@ -8955,9 +8955,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1668553911}
+  m_Mesh: {fileID: 526435623}
 --- !u!33 &1026436104
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -9516,9 +9516,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 176557923}
+  m_Mesh: {fileID: 900975424}
 --- !u!33 &1033579497
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -9899,9 +9899,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 526435623}
+  m_Mesh: {fileID: 1314507067}
 --- !u!33 &1109871691
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -10282,9 +10282,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2006245271}
+  m_Mesh: {fileID: 1361731541}
 --- !u!33 &1174631219
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -10696,9 +10696,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 900975424}
+  m_Mesh: {fileID: 753105196}
 --- !u!33 &1292821462
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -11079,9 +11079,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 843273018}
+  m_Mesh: {fileID: 1033059761}
 --- !u!33 &1300146650
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -11984,7 +11984,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -12102,7 +12102,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.39
+      scalar: 0.01
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -12566,7 +12566,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.27
+      value: 0.03
       mode: 0
       spread: 0
       speed:
@@ -17255,9 +17255,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 936758807}
+  m_Mesh: {fileID: 843273018}
 --- !u!33 &1695345092
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -17735,9 +17735,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 843273018}
+  m_Mesh: {fileID: 176557923}
 --- !u!33 &1896966159
 MeshFilter:
   m_ObjectHideFlags: 10
