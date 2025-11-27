@@ -3,8 +3,9 @@ using UnityEngine.InputSystem;
 
 public class InputReading : MonoBehaviour {
 
-    public ParticleSystem MagicL;
-    public ParticleSystem MagicR;
+    public Transform LeftHandRefference;
+    public Transform RightHandRefference;
+    public GameObject BulletPrefab;
 
     public InputActionProperty InputTriggerL;
     public InputActionProperty InputTriggerR;
@@ -14,7 +15,7 @@ public class InputReading : MonoBehaviour {
     public InputActionProperty RightJoystick; 
     public CharacterController controller;         
     public float moveSpeed = 2f;
-
+    
     private void Start() {
         InputTriggerL.action.Enable();
         InputTriggerR.action.Enable();
@@ -24,18 +25,15 @@ public class InputReading : MonoBehaviour {
     }
 
     void Update() {
-        print($"Trigger L: {InputTriggerL.action.ReadValue<float>()}");
-        print($"Trigger R: {InputTriggerR.action.ReadValue<float>()}");
-        print($"Grab L: {InputGrabL.action.ReadValue<float>()}");
-        print($"Grab R: {InputGrabR.action.ReadValue<float>()}");
-        print($"RightJoystick: {RightJoystick.action.ReadValue<Vector2>()}");
 
-        if (InputTriggerL.action.ReadValue<float>() == 1f) {
-            MagicL.Play();
+        if(InputTriggerL.action.ReadValue<float>() >= 0.6) {
+            GameObject bullet = Instantiate(BulletPrefab, LeftHandRefference.position, LeftHandRefference.rotation);
         }
-        if (InputTriggerR.action.ReadValue<float>() == 1f) {
-            MagicR.Play();
+
+        if (InputTriggerR.action.ReadValue<float>() >= 0.6) {
+            GameObject bullet = Instantiate(BulletPrefab, RightHandRefference.position, RightHandRefference.rotation);
         }
+
 
         MoveCharacter();
     }
