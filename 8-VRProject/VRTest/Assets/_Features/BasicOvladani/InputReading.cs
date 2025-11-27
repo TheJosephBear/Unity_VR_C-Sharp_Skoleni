@@ -14,6 +14,7 @@ public class InputReading : MonoBehaviour {
 
     public InputActionProperty RightJoystick; 
     public CharacterController controller;         
+    public Rigidbody rb;
     public float moveSpeed = 2f;
     
     private void Start() {
@@ -35,10 +36,10 @@ public class InputReading : MonoBehaviour {
         }
 
 
-        MoveCharacter();
+        MoveCharacterRigidbody();
     }
 
-    void MoveCharacter() {
+    void MoveCharacterCharacterController() {
         Vector2 joy = RightJoystick.action.ReadValue<Vector2>();
         if (joy.sqrMagnitude < 0.01f) return;
 
@@ -55,4 +56,31 @@ public class InputReading : MonoBehaviour {
 
         controller.Move(move * moveSpeed * Time.deltaTime);
     }
+
+    void MoveCharacterRigidbody() {
+        Vector2 joy = RightJoystick.action.ReadValue<Vector2>();
+        if (joy.sqrMagnitude < 0.01f) return;
+
+        Vector3 forward = Camera.main.transform.forward;
+        Vector3 right = Camera.main.transform.right;
+
+        forward.y = 0f;
+        right.y = 0f;
+
+        forward.Normalize();
+        right.Normalize();
+
+        Vector3 moveDir = forward * joy.y + right * joy.x;
+        moveDir.Normalize();
+
+        Vector3 targetVelocity = moveDir * moveSpeed;
+        Vector3 currentVelocity = rb.linearVelocity;
+
+        rb.linearVelocity = new Vector3(
+            targetVelocity.x,
+            currentVelocity.y,
+            targetVelocity.z
+        );
+    }
+
 }
