@@ -10,6 +10,9 @@ public class HandAnimateOnInput : MonoBehaviour {
 
     private void Awake() {
         _animator = GetComponent<Animator>();
+
+        TriggerInput.action.Enable();
+        GripInput.action.Enable();
     }
 
     private void Update() {
