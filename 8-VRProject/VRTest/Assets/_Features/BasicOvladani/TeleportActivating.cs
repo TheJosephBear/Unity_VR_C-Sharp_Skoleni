@@ -13,13 +13,13 @@ public class TeleportActivating : MonoBehaviour {
         teleportActivatorAction.action.performed += Action_performed;
     }
 
-    private void Action_performed(InputAction.CallbackContext obj) {
-        teleportInteractor.gameObject.SetActive(true);
-    }
-
     void Update() {
         if (teleportActivatorAction.action.WasReleasedThisFrame()) {
             teleportInteractor.gameObject.SetActive(false);
         }
+    }
+
+    private void Action_performed(InputAction.CallbackContext obj) {
+        teleportInteractor.gameObject.SetActive(true);
     }
 }
