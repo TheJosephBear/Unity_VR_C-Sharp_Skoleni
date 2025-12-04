@@ -9,4 +9,7 @@ public class SpawnEffect : MonoBehaviour
         Instantiate(EffectPrefab, SpawnPoint.position, Quaternion.identity);
     }
 
+    private void OnCollisionEnter(Collision collision) {
+        Instantiate(EffectPrefab, collision.contacts[0].point, Quaternion.identity);
+    }
 }
