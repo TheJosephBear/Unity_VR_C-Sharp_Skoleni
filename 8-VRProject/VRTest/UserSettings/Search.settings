@@ -69,6 +69,11 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"transla"
+	"primary"
+	"activa"
+	"xri right"
+	"rotate"
 	"select"
 	"activat"
 	"activate"
