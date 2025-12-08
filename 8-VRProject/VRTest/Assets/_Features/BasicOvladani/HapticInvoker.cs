@@ -6,12 +6,12 @@ using UnityEngine.XR.OpenXR.Input;
 
 public class HapticInvoker : MonoBehaviour {
 
-    [Range(0f, 10f)]
+    [Range(0f, 1f)]
     public float Amplitude = 0.7f;
     [Range(0f, 2f)]
-    float Duration = 0.2f;
-    [Range(0f, 10f)]
-    float Frequency = 0.2f;
+    public float Duration = 0.2f;
+    [Range(0f, 1f)]
+    public float Frequency = 0.2f;
 
     public HapticImpulsePlayer HapticLeft;
     public HapticImpulsePlayer HapticRight;
