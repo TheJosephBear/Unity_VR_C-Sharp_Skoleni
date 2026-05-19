@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Basket BALL
   layers:
   - Default
   - TransparentFX

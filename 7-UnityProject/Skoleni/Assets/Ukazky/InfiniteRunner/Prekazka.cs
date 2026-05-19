@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Prekazka : MonoBehaviour
-{
-    public float speed = 3f;          
-    public Vector3 direction = Vector3.right;  
+public class Prekazka : MonoBehaviour {
+    [HideInInspector]
+    public float speed;
+    public Vector3 direction = Vector3.right;
 
     private Rigidbody rb;
 
@@ -15,11 +15,5 @@ public class Prekazka : MonoBehaviour
 
     void FixedUpdate() {
         rb.MovePosition(transform.position + direction.normalized * speed * Time.fixedDeltaTime);
-    }
-
-    void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Player")) {
-            Debug.Log("Hit the player!");
-        }
     }
 }
